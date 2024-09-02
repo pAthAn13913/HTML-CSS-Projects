@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #455065;
+}
+
+.container {
+    background-color: #455065;
+    border: 0.5px solid #313b4e;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 17px #3b4456,
+        -7px -7px 17px #4f5c74;
+}
+
+h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffd500;
+    padding: 20px 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #ffd500;
+    left: 0;
+    bottom: -10px;
+}
+
+form {
+    margin: 30px 0;
+}
+
+label {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 350px;
+    height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #455065;
+    border: 0.5px solid #313b4e;
+    box-shadow: 7px 7px 17px #3b4456,
+        -7px -7px 17px #4f5c74;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    color: #ffd500;
+    box-shadow: inset 7px 7px 17px #3b4456,
+        inset -7px -7px -17px #4f5c74;
+}
+
+#user{
+      margin-bottom: 20px;
+}
+
+.forgetpw{
+    display: block;
+    margin: 3px 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+.forgetpw:hover{
+    text-decoration: underline;
+    color: #ffd500;
+}
+
+button{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: #ffd500;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+.fa-paper-plane{
+    font-size: 20px;
+    color: #455065;
+}
+
+#btn{
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    color: #455065;
+    font-size: 22px;
+    font-weight: 400;
+}
+ 
+.signup{
+    width: 100%;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #c0c0c0;
+}
+
+.signup a{
+    color: #ffd500;
+    text-decoration: none;
+}

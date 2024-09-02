@@ -1,0 +1,28 @@
+.card {
+    max-width: 91vw;
+    margin: auto;
+}
+
+.card-item{
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+p{
+    text-align: center;
+    margin: 5px;
+}
+
+.card h2{
+    padding: 26px 0; 
+ 
+}
+
+.pic2 {
+    width: 170px;
+    height: 150px;
+}
+
