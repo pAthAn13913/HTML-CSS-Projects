@@ -1,0 +1,75 @@
+@media(max-width: 425px) {
+    .ipad-iphone-img {
+        top: 10rem;
+        margin-top: -10rem;
+    }
+
+    .about-music {
+        padding-top: 15rem;
+    }
+}
+
+
+@media (max-width : 768px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menu-bar i {
+        font-size: 2.4rem;
+    }
+
+    .footer-upper .container {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .footer-upper .footer-links {
+        min-width: 20rem;
+    }
+
+    .gift-section {
+        flex-direction: column;
+    }
+
+    .gift-section img {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 1024px) {
+
+    .ipad-iphone-img img,
+    .mac-img img {
+        max-width: 100%;
+    }
+
+    .ipad-iphone-img {
+        top: 20rem;
+        margin-top: -20rem;
+
+    }
+
+    .about-music {
+        padding-top: 30rem;
+    }
+
+    .gift-card img {
+        max-width: 40rem;
+    }
+}
+
+
+
+@media (min-width : 768px) {
+    .menu-bar {
+        display: none;
+    }
+
+}
