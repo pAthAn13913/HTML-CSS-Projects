@@ -23,8 +23,12 @@ body {
     color: white;
 }
 
+section {
+    scroll-margin: 5rem;
+}
+
 body {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 a {
@@ -54,7 +58,7 @@ header {
 }
 
 nav {
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +70,7 @@ nav ul {
 }
 
 nav li {
-    font-size: 1.8rem;
+    font-size: 2rem;
     border-bottom: 0.4rem solid transparent;
     transition: 0.3s ease-out;
 }
@@ -77,21 +81,21 @@ nav li:hover {
 }
 
 .logo {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 800;
 }
 
 #hero {
     background-color: var(--dark-color);
-    padding: 4rem 0;  
-    border-bottom: 4px solid var(--lighting-color);
+    padding: 4rem 0;
+    border-bottom: 0.4rem solid var(--lighting-color);
 }
 
- .hero-image img{
+.hero-image img {
     border-radius: 50%;
     overflow: hidden;
-  
-} 
+
+}
 
 #hero .container {
     display: flex;
@@ -182,7 +186,7 @@ nav li:hover {
 }
 
 .card {
-    width: 320pz;
+    width: 36rem;
     display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
@@ -254,8 +258,10 @@ nav li:hover {
     justify-content: center;
 }
 
-.top-contact {
-    max-width: 800px;
+.top-contact,
+.bottom-contact {
+    max-width: 80rem;
+    gap: 1rem;
     display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
@@ -265,6 +271,7 @@ nav li:hover {
     display: flex;
     gap: 1rem;
     align-items: center;
+    padding: 0 1rem;
 }
 
 .contact-way i {
@@ -274,14 +281,6 @@ nav li:hover {
 .contact-way h3 {
     font-size: 3rem;
     font-weight: bold;
-}
-
-.bottom-contact {
-    max-width: 400px;
-    gap: 1rem;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 }
 
 
@@ -302,7 +301,7 @@ footer {
 
 @media(max-width: 786px) {
     html {
-        font-size: 40%;
+        font-size: 50%;
     }
 
     #hero .container {
@@ -321,7 +320,7 @@ footer {
 
 @media(max-width: 500px) {
     html {
-        font-size: 32%;
+        font-size: 40%;
     }
 
     #hero .container {
@@ -335,5 +334,22 @@ footer {
 
     #contact .container {
         height: 50vh;
+    }
+
+}
+
+@media(max-width: 380px) {
+
+    .top-contact,
+    .bottom-contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .top-contact {
+        margin-top: -3rem;
+    }
+    .bottom-contact {
+        padding-bottom: 5rem;
+   
     }
 }
