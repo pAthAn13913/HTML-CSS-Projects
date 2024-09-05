@@ -58,7 +58,7 @@ header {
 }
 
 nav {
-    padding: 0.5rem;
+    padding: 0.5rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -334,6 +334,10 @@ footer {
 
     #contact .container {
         height: 50vh;
+    }
+    
+    nav {
+        padding:2rem;
     }
 
 }
