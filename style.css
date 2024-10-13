@@ -299,6 +299,13 @@ footer {
     text-align: center;
 }
 
+#ftrName{
+    font-size: 2.5rem;
+}
+
+.name{
+    color: #fff700;
+}
 
 
 /* media query */
