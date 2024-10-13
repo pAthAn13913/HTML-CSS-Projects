@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+.choice-button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin: 10px;
+  background-color: rgb(164, 212, 130);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.choice-image {
+  height: 75px;
+}
+
+.choice-button:hover {
+  border: 3px solid black;
+}
+
+.resbtn:hover {
+  border: 3px solid black;
+}
+
+.totalBtn{
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+}
